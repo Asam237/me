@@ -31,26 +31,26 @@ export const links: HeaderLinkType[] = [
 export const socials: SocialLinkType[] = [
     {
         icon: LinkedinIcon,
-        path: "#"
+        path: "https://www.linkedin.com/in/abba-sali-aboubakar-mamate/"
     },
     {
         icon: GithubIcon,
-        path: "#"
+        path: "http://github.com/Asam237"
     },
     {
         icon: WakatimeIcon,
-        path: "#"
+        path: "https://wakatime.com/@asam"
     },
     {
         icon: TwitterIcon,
-        path: "#"
+        path: "https://twitter.com/asam_237"
     },
     {
         icon: EmailIcon,
-        path: "#"
+        path: "mailto:abbasalimokolo@gmail.com"
     },
     {
         icon: PhoneIcon,
-        path: "#"
+        path: "tel:+237691846922"
     },
 ]
