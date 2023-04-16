@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Layout from '../components/layout'
 import Education from '../components/sections/education'
 import Experience from '../components/sections/experience'
+import Interested from '../components/sections/interests'
 import Intro from '../components/sections/intro'
 import Skills from '../components/sections/skills'
 
@@ -19,6 +20,7 @@ export default function Home() {
         <Experience />
         <Education />
         <Skills />
+        <Interested />
       </Layout>
     </>
   )
