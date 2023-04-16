@@ -7,6 +7,12 @@ interface IText {
 }
 
 const Text = ({ text, type, path }: IText) => {
+    if (type === "introtitle") {
+        return <h1 className="text-4xl lg:text-6xl font-bold">{text}</h1>
+    }
+    if (type === "introsubtitle") {
+        return <h1 className="mt-4 text-2xl lg:text-3xl">{text}</h1>
+    }
     if (type === "section") {
         return <h1 className="text-3xl lg:text-5xl font-bold uppercase my-4">{text}</h1>
     }

@@ -14,3 +14,9 @@ export type ExperienceType = {
     structure: string
     description: string
 }
+
+export type EducationType = {
+    school: string
+    diplome: string
+    year: string
+}

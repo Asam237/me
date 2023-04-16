@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Layout from '../components/layout'
+import Education from '../components/sections/education'
 import Experience from '../components/sections/experience'
 import Intro from '../components/sections/intro'
 
@@ -15,6 +16,7 @@ export default function Home() {
       <Layout>
         <Intro />
         <Experience />
+        <Education />
       </Layout>
     </>
   )

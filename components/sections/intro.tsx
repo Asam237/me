@@ -2,6 +2,7 @@ import Image from "next/image"
 import Link from "next/link"
 import { socials } from "../../data/links"
 import Me from "../../public/me.png"
+import Text from "../commons/text"
 
 const title: string = "Abba Sali Aboubakar Mamate"
 const subTitle: string = "Software Developer"
@@ -17,8 +18,8 @@ const Intro = () => {
                 </div>
                 <div className="mt-6 lg:ml-32">
                     <div className="flex flex-col">
-                        <h1 className="text-4xl lg:text-6xl font-bold">{title}</h1>
-                        <h4 className="mt-4 text-2xl lg:text-3xl">{subTitle}</h4>
+                        <Text text={title} type="introtitle" />
+                        <Text text={subTitle} type="introsubtitle" />
                         <ul className="mt-4">
                             {
                                 content.map((item, index) => {
