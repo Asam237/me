@@ -11,7 +11,7 @@ const Education = () => {
                 {
                     educations.map((item, index) => {
                         return (
-                            <div key={index} className="lg:h-64 lg:w-96">
+                            <div key={index} className="lg:h-44 lg:w-96">
                                 <Text text={item.school} type="introsubtitle" />
                                 <Text text={item.diplome} />
                                 <Text text={item.year} />

@@ -3,6 +3,7 @@ import Layout from '../components/layout'
 import Education from '../components/sections/education'
 import Experience from '../components/sections/experience'
 import Intro from '../components/sections/intro'
+import Skills from '../components/sections/skills'
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
         <Intro />
         <Experience />
         <Education />
+        <Skills />
       </Layout>
     </>
   )
