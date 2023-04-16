@@ -13,7 +13,7 @@ type Props = {
 const jost = Jost({ weight: "400", subsets: ["latin"] })
 
 const description = [
-    "I'm interested in Frontend, Backend, Mobile, Observability, and Infrastructure as Code.",
+    'I was interested in web mobile and desktop technologies.',
     'I enjoy sharing my knowledge and contributing to open-source projects.',
 ]
 
