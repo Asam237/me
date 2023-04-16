@@ -33,7 +33,8 @@ This project is maintained by:
 - mobile: (+237) 691846922
 
 <br/>
-
+inspired by: https://eyupfidan.com/
+<br />
 ## License
 
 [The MIT License.](https://opensource.org/licenses/MIT)
