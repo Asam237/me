@@ -6,7 +6,7 @@ import Text from "../commons/text"
 
 const title: string = "Abba Sali Aboubakar Mamate"
 const subTitle: string = "Software Developer"
-const content: string[] = ["I was interested in web mobile and desktop technologies.",
+const content: string[] = ["I'm interested in web mobile and desktop technologies.",
     "I enjoy sharing my knowledge and contributing to open-source projects."]
 
 const Intro = () => {
