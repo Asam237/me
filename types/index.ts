@@ -20,3 +20,10 @@ export type EducationType = {
     diplome: string
     year: string
 }
+
+export type ProjectType = {
+    title: string
+    description: string
+    tags: any[]
+    link: string
+}
