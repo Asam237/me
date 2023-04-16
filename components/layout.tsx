@@ -2,11 +2,15 @@ import { NextSeo } from "next-seo";
 import Head from "next/head";
 import { ReactNode } from "react"
 import Header from "./header";
+import { Jost } from "@next/font/google"
+import Footer from "./footer";
 
 type Props = {
     children?: ReactNode;
     title?: string
 }
+
+const jost = Jost({ weight: "400", subsets: ["latin"] })
 
 const description = [
     "I'm interested in Frontend, Backend, Mobile, Observability, and Infrastructure as Code.",
@@ -15,7 +19,7 @@ const description = [
 
 const Layout = ({ children, title = "Abba Sali Aboubakar Mamate" }: Props) => {
     return (
-        <div>
+        <div className={`${jost.className}`}>
             <NextSeo description={description.join(' ')} />
             <Head>
                 <title>{title}</title>
@@ -26,6 +30,14 @@ const Layout = ({ children, title = "Abba Sali Aboubakar Mamate" }: Props) => {
             </Head>
             <div>
                 <Header />
+                <main className="py-6 lg:py-8">
+                    <div className="container mx-auto">
+                        <div>
+                            {children}
+                        </div>
+                    </div>
+                </main>
+                <Footer />
             </div>
         </div>
     )
