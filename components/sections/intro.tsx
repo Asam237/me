@@ -11,7 +11,7 @@ const content: string[] = ["I was interested in web mobile and desktop technolog
 
 const Intro = () => {
     return (
-        <div className="container mx-auto">
+        <div id="about" className="container mx-auto">
             <div className="flex flex-col lg:flex-row">
                 <div className="w-56 h-56 border-8 rounded-full border-gray-900">
                     <Image src={Me} alt="picture" className="object-cover w-52 rounded-full h-52" />

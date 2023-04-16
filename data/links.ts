@@ -20,7 +20,7 @@ export const links: HeaderLinkType[] = [
     },
     {
         name: "Interest",
-        path: "#interest"
+        path: "#interests"
     },
     {
         name: "Projects",

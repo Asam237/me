@@ -3,7 +3,7 @@ import Text from "../commons/text"
 
 const Projects = () => {
     return (
-        <section className="my-8 lg:my-16">
+        <section id="projects" className="my-8 lg:my-16">
             <div className="container mx-auto">
                 <Text text="EXPERIENCE" type="section" />
                 <div className="grid gap-x-4 gap-y-6 grid-cols-1 lg:grid-cols-3 mt-8">

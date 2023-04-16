@@ -6,7 +6,7 @@ const useText = "Things I Use"
 
 const Skills = () => {
     return (
-        <section className="mt-8">
+        <section id="skills" className="mt-8">
             <div className="container mx-auto">
                 <Text text="skills" type="section" />
             </div>

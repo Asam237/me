@@ -7,7 +7,7 @@ const meth = "Methodologies"
 
 const Interested = () => {
     return (
-        <section className="mt-10 lg:my-16">
+        <section id="interests" className="mt-10 lg:my-16">
             <div className="container mx-auto">
                 <Text text="INTERESTS" type="section" />
                 <div className="mt-6 lg:mt-10" />

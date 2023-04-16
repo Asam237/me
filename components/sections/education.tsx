@@ -3,7 +3,7 @@ import Text from "../commons/text"
 
 const Education = () => {
     return (
-        <section className="mt-8">
+        <section id="education" className="mt-8">
             <div className="container mx-auto">
                 <Text text="education" type="section" />
             </div>
