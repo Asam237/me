@@ -23,7 +23,7 @@ const Text = ({ text, type, path }: IText) => {
         return <h1 className="text-base lg:text-xl font-normal my-2">{text}</h1>
     }
     if (type === "tags") {
-        return <h1 className="text-sm lg:text-base font-normal my-2">{text}</h1>
+        return <h1 className="text-base lg:text-lg font-normal my-2">{text}</h1>
     }
     if (type === "structure") {
         return <h1 className="text-base lg:text-lg text-green-500 my-2">{text}</h1>
