@@ -19,7 +19,7 @@ const Header = () => {
                             {
                                 links.map((item, index) => {
                                     return (
-                                        <li key={index} className="text-white ml-4 text-base">
+                                        <li key={index} className={`ml-4 text-base ${item.name === "Home" ? 'text-white' : 'text-gray-400'}`}>
                                             <Link href={item.path}>{item.name}</Link>
                                         </li>
                                     )
