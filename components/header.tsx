@@ -30,10 +30,10 @@ const Header = () => {
                 </div>
             </div>
             <div
-                className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 ${navbar ? 'block' : 'hidden'
+                className={`flex-1 justify-self-center pb-3 mt-8 lg:block lg:pb-0 lg:mt-0 ${navbar ? 'block' : 'hidden'
                     }`}
             >
-                <ul className="flex flex-col items-end justify-center space-y-8 md:flex md:space-x-6 md:space-y-0 lg:hidden text-gray-600">
+                <ul className="flex flex-col items-end justify-center space-y-8 md:space-x-6 md:space-y-0 lg:hidden text-gray-600">
                     {
                         links.map((item: any, index) => {
                             return <li key={index} className="text-base font-semibold text-white"><Link href={item.path}>{item.name}</Link></li>
