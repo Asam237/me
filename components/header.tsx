@@ -36,7 +36,7 @@ const Header = () => {
                 <ul className="flex flex-col items-end justify-center space-y-8 md:space-x-6 md:space-y-0 lg:hidden text-gray-600">
                     {
                         links.map((item: any, index) => {
-                            return <li key={index} className="text-base font-semibold text-white"><Link href={item.path}>{item.name}</Link></li>
+                            return <li key={index} className="text-base font-semibold py-2 text-white"><Link href={item.path}>{item.name}</Link></li>
                         })
                     }
                 </ul>
