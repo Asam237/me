@@ -20,6 +20,15 @@ export const projects: ProjectType[] = [
             "MongoDB"],
     },
     {
+        title: "Spotify Clone",
+        link: "https://github.com/Asam237/spotify-clone",
+        description: "This is a Spotify Clone made with NextJS, Tailwind CSS, React router dom and React Icons",
+        tags: ["Node.js",
+            "TypeScript",
+            "NextJS",
+            "Tailwind"],
+    },
+    {
         title: "Reservation App",
         link: "https://github.com/Asam237/reservation_app",
         description: "Rent a vehicle adapted to your needs from the wide range of vehicles",
@@ -27,14 +36,5 @@ export const projects: ProjectType[] = [
             "Dart",
             "UI/UX Design",
         ],
-    },
-    {
-        title: "Spotify Clone",
-        link: "https://github.com/Asam237/spotify-clone",
-        description: "This is a Spotify Clone made with NextJS, Tailwind CSS",
-        tags: ["Node.js",
-            "TypeScript",
-            "NextJS",
-            "Tailwind"],
     },
 ]
