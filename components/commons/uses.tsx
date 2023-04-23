@@ -10,7 +10,7 @@ const Uses = ({ title, skills }: IUses) => {
     return (
         <div>
             <Text text={title} />
-            <ul className="flex flex-wrap mb-8 items-center">
+            <ul className="flex flex-wrap mb-8 items-center border-l-2 pl-8">
                 {skills.map((item, index) => {
                     return (<li className="mr-6" key={index}>
                         <Image src={item} alt="pic" className="w-12 h-auto object-cover" />

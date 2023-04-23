@@ -20,7 +20,7 @@ const Intro = () => {
                     <div className="flex flex-col">
                         <Text text={title} type="introtitle" />
                         <Text text={subTitle} type="introsubtitle" />
-                        <ul className="mt-4">
+                        <ul className="mt-4 border-l-2 pl-8">
                             {
                                 content.map((item, index) => {
                                     return (

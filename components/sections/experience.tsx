@@ -10,7 +10,7 @@ const Experience = () => {
                     {
                         experiences.map((item, index) => {
                             return (
-                                <div key={index} className="lg:h-64 border-l-2 pl-4">
+                                <div key={index} className="lg:h-64">
                                     <Text text={item.title} type="title" />
                                     <Text text={item.periode} type="subtitle" />
                                     <Text text={item.structure} type="structure" />
