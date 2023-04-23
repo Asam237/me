@@ -1,12 +1,12 @@
 import Link from "next/link"
 
-interface IText {
+interface IText extends React.HTMLAttributes<HTMLButtonElement> {
     text: any
     type?: string
     path?: any
 }
 
-const Text = ({ text, type, path }: IText) => {
+const Text = ({ text, type, path, ...props }: IText) => {
     if (type === "introtitle") {
         return <h1 className="text-4xl lg:text-6xl font-bold">{text}</h1>
     }
@@ -31,7 +31,7 @@ const Text = ({ text, type, path }: IText) => {
     if (type === "link") {
         return <Link href={`${path}`} className="text-base lg:text-xl text-green-500 my-2">{text}</Link>
     }
-    return <p className="text-base lg:text-xl font-normal text-gray-700 my-2">{text}</p>
+    return <p className={`text-base lg:text-lg font-normal text-gray-700 my-2 ` + props}> { text }</p >
 
 }
 

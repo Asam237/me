@@ -12,7 +12,7 @@ const Techs = ({ title, techs, type }: ITech) => {
         return (<div>
             <Text type="introsubtitle" text={title} />
             <div>
-                <ul className="ml-4 mt-4">
+                <ul className="ml-4 mt-4 border-l-2 pl-8">
                     {
                         techs.map((item, index) => {
                             return (
@@ -33,7 +33,7 @@ const Techs = ({ title, techs, type }: ITech) => {
             <div className="mt-4 lg:mt-8">
                 <Text type="introsubtitle" text={title} />
                 <div>
-                    <ul className="ml-4 mt-4">
+                    <ul className="ml-4 mt-4 pl-8 border-l-2">
                         {
                             techs.map((item, index) => {
                                 return (
