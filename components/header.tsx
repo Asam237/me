@@ -6,7 +6,7 @@ import { links } from "../data/links"
 const Header = () => {
     const [navbar, setNavBar] = useState(false)
     return (
-        <header className={`bg-gray-900 py-6 px-4 lg:px-0`}>
+        <header className={`bg-gray-900 py-6 px-4 lg:px-0 sticky top-0 left-0`}>
             <div className="container mx-auto">
                 <div className="flex lg:justify-end justify-start">
                     <div className="flex lg:hidden" onClick={() => {
